@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.fluent-calendar {
+  margin: 0 auto;
+  width: 800px;
+  height: 1795px;
+  background: #2a2e41b2;
+  color: #ffffff;
+  font-family: "Roboto"; }
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 84px 0 0 0; }
+  .header-container h2 {
+    font-weight: 500;
+    font-size: 36px; }
+
+hr {
+  width: 600px;
+  margin: 90px 100px 67px;
+  height: 2px;
+  color: #000000;
+  opacity: 17%; }
+
+.days {
+  display: flex;
+  font-weight: 500;
+  font-size: 26px;
+  margin: 0 auto;
+  width: 640px; }
+
+.date-number {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 29px;
+  margin: 0px 0px 0px 83px; }
+
+.hr-1 {
+  width: 600px;
+  height: 2px;
+  color: #000000;
+  opacity: 17%;
+  margin-bottom: 107px; }
+
+span {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 26px;
+  margin: 0 0 42px 82px; }
+
+.btn {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  align-items: center;
+  margin-bottom: 46px;
+  border-radius: 50px; }
+  .btn.active {
+    background: #3C82F9; }
+  .btn:hover {
+    background: #F39946; }
+
+.buttons {
+  font-weight: 500;
+  display: block;
+  margin: 0 82px; }   
+  .buttons .button-finance {
+    background-color: #8576ed;
+    color: #ffffff;
+    border-radius: 12px;
+    width: 285px;
+    height: 80px;
+    border: #2a2e41b2;
+    font-size: 22px; }
+  .buttons .button-management {
+    background-color: #f39946;
+    color: #ffffff;
+    border-radius: 12px;
+    width: 285px;
+    height: 80px;
+    border: #2a2e41b2;
+    margin: 0 30px;
+    font-size: 22px; }
+  .buttons .button-design {
+    background-color: #ff467e;
+    color: #ffffff;
+    border-radius: 12px;
+    width: 285px;
+    height: 80px;
+    border: #2a2e41b2;
+    margin-top: 30px;
+    font-size: 22px; }
